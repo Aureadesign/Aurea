@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<title>AUREA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="stile.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Titillium", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+//.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("abbate2/logo animato.gif");
+  min-height: 100%;
+}//
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-button w3-wide"> <img style="height:50px; margin-right:10px;" src="abbate2/logo NERO.png">Aurea  </a>
+
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small" style="margin-top:10px;">
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="chi.html" class="w3-bar-item w3-button"><i ></i>Chi siamo</a>
+      <a href="vi.html" class="w3-bar-item w3-button"><i ></i> Visual identity</a>
+      <a href="prodotto.html" class="w3-bar-item w3-button"><i ></i> Prodotto</a>
+
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <img src="img/PNG/icon_menu.png"></img>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none; background-color:white; " id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Chiudi ×</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="chi.html" onclick="w3_close()" class="w3-bar-item w3-button"> Chi siamo</a>
+  <a href="vi.html" onclick="w3_close()" class="w3-bar-item w3-button"> Visual identity</a>
+<a href="prodotto.html" onclick="w3_close()" class="w3-bar-item w3-button">Prodotto</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+
+
+  </div>
+
+</header>
+
+
+
+
+<!-- Promo Section - "We know design" -->
+
+  <br> <br>
+<div class="w3-content" style="max-width:1100px" >
+
+  <br>
+  <h1 class="w3-center" >Visual Identity</h1><br>
+  <div class="w3-row w3-light-grey" style="margin-left:; width:100%; height:500px">
+    <br>
+      <div class="w3-third w3-center" style="margin-top: 100px;">
+        <img src="abbate2/logo oro.png" style="width:85%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+      </div>
+
+      <div class="w3-third w3-center" style="margin-top: 100px;">
+        <img src="abbate2/logo nero.png" style="width:85%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
+
+      </div>
+
+      <div class="w3-third w3-center" style="margin-top: 100px;">
+        <img src="abbate2/logo avorio.png" style="width:85%" onclick="onClick(this)" alt="Canoeing again">
+
+      </div>
+    </div>
+    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+  <br> <br> <br>
+<!-- Promo Section - "We know design" -->
+<h3 class="w3-center" >Progettazione del logo</h3><br>
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Bozze logo aurea</h1>
+      <h5 class="w3-padding-32">In questa fase abbiamo analizzato in partenza il font che abbiamo voluto <br> utilizzare per il testo, combinandolo in diversi modi, <br> per farci un'idea generale e sviluppare il prodotto finale.</h5>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="logo1 w3-padding-64 w3-text-red"></i>
+<img src="abbate2/logo costruzione 1.jpg" class="w3-opacity w3-hover-opacity-off" alt="Norway" style="width:120%; margin-top:; margin-right:-30px">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="w3-padding-64 w3-text-red w3-margin-right"></i>
+      <img src="abbate2/logo costruzione 2.jpg" class="w3-opacity w3-hover-opacity-off" alt="Norway" style="width:120%; margin-top:; margin-left:">
+    </div>
+
+    <div class="w3-col l6" style="margin-left:140px">
+      <h1>Costruzione del logo</h1>
+      <h5 class="w3-padding-32">Sviluppo effettivo del logo scelto. <br> Costruzione, progettazione e stilizzazione del font scelto per la nostra identità visiva.</h5>
+
+    </div>
+  </div>
+</div>
+<br> <br> <br>
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="logo1 w3-padding-64 w3-text-red"></i>
+<img src="abbate2/logo costruzione 3.jpg" class="w3-opacity w3-hover-opacity-off" alt="Norway" style="width:120%; margin-top:; margin-right:-50px">
+    </div>
+  </div>
+</div>
+<br> <br> <br>
+
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<!-- Footer -->
+<footer class="w3-col m12 w3-padding-64" style="background-color: #efefef; height:200px;">
+
+  <br>
+
+
+<center>
+ <a href="vi.html" class="w3-button w3-light-grey"><img src="img/PNG/arrow_carrot-up_alt2.png " style="float:right; zoom:50%;"></img></a>
+</center>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
