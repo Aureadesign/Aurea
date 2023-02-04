@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<title>AUREA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="stile.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Titillium", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("abbate2/logo animato.gif");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+</style>
+
+<body>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="vi.html" class="w3-bar-item w3-button w3-wide"> <img style="height:50px; margin-right:10px;" src="abbate2/logo NERO.png">Aurea  </a>
+
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small" style="margin-top:10px;">
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="chi.html" class="w3-bar-item w3-button"><i ></i>Chi siamo</a>
+      <a href="vi.html" class="w3-bar-item w3-button"><i ></i> Visual identity</a>
+      <a href="prodotto.html" class="w3-bar-item w3-button"><i ></i> Prodotto</a>
+
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <img src="img/PNG/icon_menu.png"></img>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none; background-color:white; " id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Chiudi ×</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="chi.html" onclick="w3_close()" class="w3-bar-item w3-button"> Chi siamo</a>
+  <a href="vi.html" onclick="w3_close()" class="w3-bar-item w3-button"> Visual identity</a>
+<a href="prodotto.html" onclick="w3_close()" class="w3-bar-item w3-button">Prodotto</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+
+
+  </div>
+
+</header>
+<center>
+  <br> <br>
+<div class="w3-content" style="max-width:1100px" >
+<!-- Promo Section - "We know design" -->
+
+<div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+      <br> <br> <br> <br> <br> <br> <br>
+     <img src="progetto/photoshop padiglione.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750" style="margin-top: -50px;">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Il nostro progetto</h1><br>
+      <p class="w3-large">Il progetto viene realizzato con l’intento di dare svariati punti di ritrovo agli studenti dell’università e non solo. <br> Il concept di base s’ispira alla mitologia greca, molto forte nella storia e nel territorio siciliano.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Su tutta la zona della cittadella universitaria di Palermo è stata creata un griglia immaginaria su base esagonale, in alcuni vertici di questi esagoni (scelti a seconda della conformazione della zona) si vanno a disporre dei padiglioni dalle svarite funzioni, ognuno di questi prende ispirazione da una dività greca e partendo dalla storia di quest’ultima si vanno a delineare gli scopi della struttura stessa. I padiglioni si estendono dall’inizio di Viale delle Scienze sino alla sua fine. Il progetto comprende anche 3 percorsi che gestiscono la viabilità pedonale degli utenti dell’università e collegano tutti i padiglioni.</p>
+      <p><a href="prodotto.html" class="w3-button w3-black"><i class="fa fa-th"> </i> Per saperne di più</a></p>
+    </div>
+
+  </div>
+
+  <hr>
+
+  <!-- Menu Section -->
+
+
+
+
+  <div class="w3-col m6">
+    <div class="w3-row w3-padding-64 " id="menu">
+    <h1 class="w3-center">Il nostro logo</h1><br>
+    <h5 class="w3-center">Ibeaquamet maximus demquidus.</h5>
+    <p class="w3-large">Odisquae sequi cuptate int lamus reraest ut as is velecatur? Ficimi, ipitionsequi utatem lant volo ipsam corerrum idebitas dolupta id ullam sit, sant officii sciumqu isimporempos eatis nis aborum eaquia quiam, quam aliciminvent dendipis estoratint imus sunto omniatem hillande non cum aute cus aspel is volorpo struptur alit ad quaspellut rero ingredients.</p>
+    <p class="w3-large w3-text-grey w3-hide-medium">maximporro ipsa di con restiantur solupta epelluptatum aut es aut vernationem quiamus, qui consed quias demporpor autaspedici ari arume qui sere nonserum doluptate peria aditae nim verit qui que dusapid qui omnimol orerfereri odis quam nimin nonet et, solupta tectur a nonseque exeritiunt aut aut venitat quaspid ucipsam faccab ius.</p>
+    <p><a href="vi.html" class="w3-button w3-black"><i class="fa fa-th"> </i> Per saperne di più</a></p>
+  </div>
+</div>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<div class="w3-col s4" id="menu" style="margin-left:140px;">
+ <img src="abbate2/logo oro.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+</div>
+
+</div>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<!-- Footer -->
+<footer class="w3-col m12 w3-padding-64" style="background-color: #efefef; height:200px;">
+
+  <br>
+
+
+
+ <a href="index.html" class="w3-button w3-light-grey"><img src="img/PNG/arrow_carrot-up_alt2.png " style="float:right; zoom:50%;"></img></a>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
